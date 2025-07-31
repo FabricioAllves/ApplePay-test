@@ -1,11 +1,10 @@
 {
+  "version": 2,
   "routes": [
     {
-      "src": "/.well-known/(.*)",
-      "dest": "/.well-known/$1",
-      "headers": {
-        "Content-Type": "text/plain"
-      }
+      "src": "/.well-known/apple-developer-merchantid-domain-association.txt",
+      "dest": "/apple-developer-merchantid-domain-association.txt"
     }
-  ]
+  ],
+  "outputDirectory": "dist"
 } 
